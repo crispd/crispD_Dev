@@ -1,0 +1,30 @@
+<macros>
+	<Group>
+		<DEVICE>CCG</DEVICE>
+		<ID>BSS_BTS01:CCG_D0977</ID>
+	</Group>	
+	<Group>
+		<DEVICE>CCG</DEVICE>
+		<ID>BSS_BTS02:CCG_D0966</ID>
+	</Group>
+	<Group>
+		<DEVICE>CCG</DEVICE>
+		<ID>BSS_BTS02:AP_D0966</ID>
+	</Group>
+	<Group>
+		<DEVICE>CCG</DEVICE>
+		<ID>BSS_BTS11:CCG_D1000</ID>
+	</Group>
+	<Group>
+		<DEVICE>CCG</DEVICE>
+		<ID>BSS_BTS11:CCG_D1030</ID>
+	</Group>
+	<Group>
+		<DEVICE>CCG</DEVICE>
+		<ID>BSS_BTS11:CCG_D1031</ID>
+	</Group>
+	<Group>
+		<DEVICE>CCG</DEVICE>
+		<ID>BSS_BTS12:CCG_D1117</ID>
+	</Group>	
+</macros>
