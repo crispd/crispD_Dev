@@ -1,4 +1,4 @@
-rols
+crispD_Dev
 ====
 
 Initialized on GitHub. Was to be filled with MinimalDLine folder from I: drive for further development of template based screen generation. But now may include o.c.rocs.feature to study it's method of screen generation.\
