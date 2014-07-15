@@ -5,4 +5,4 @@ Initialized on GitHub. Was to be filled with MinimalDLine folder from I: drive f
 The comparison of the two methods could lead to a better understanding of methods involved. And the use of an independent repository for exploration will help test git functionality for bugs and further practice with \
 Git protocol and eclipse's utilization of local space.
 
-[Test for recreating egit error (2014-7-15-12:03)]
+[Test for recreating egit error (2014-7-15-12:06)]
