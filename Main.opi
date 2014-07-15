@@ -1,0 +1,3298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display typeId="org.csstudio.opibuilder.Display" version="1.0">
+  <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
+  <macros>
+    <include_parent_macros>true</include_parent_macros>
+  </macros>
+  <wuid>-43b27192:13a89026382:-7f02</wuid>
+  <boy_version>3.1.2.201210191544</boy_version>
+  <scripts />
+  <show_ruler>true</show_ruler>
+  <height>800</height>
+  <name></name>
+  <snap_to_geometry>false</snap_to_geometry>
+  <show_grid>true</show_grid>
+  <background_color>
+    <color red="240" green="240" blue="240" />
+  </background_color>
+  <foreground_color>
+    <color red="192" green="192" blue="192" />
+  </foreground_color>
+  <widget_type>Display</widget_type>
+  <show_close_button>true</show_close_button>
+  <width>1280</width>
+  <rules />
+  <show_edit_range>true</show_edit_range>
+  <grid_space>6</grid_space>
+  <auto_scale_widgets>
+    <auto_scale_widgets>false</auto_scale_widgets>
+    <min_width>-1</min_width>
+    <min_height>-1</min_height>
+  </auto_scale_widgets>
+  <actions hook="false" hook_all="false" />
+  <y>-1</y>
+  <x>-1</x>
+  <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0">
+    <crop_right>0</crop_right>
+    <crop_left>0</crop_left>
+    <visible>true</visible>
+    <wuid>4321c853:13a897ee951:-7cf4</wuid>
+    <auto_size>true</auto_size>
+    <scripts />
+    <height>455</height>
+    <name>ScaleLine</name>
+    <stretch_to_fit>false</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <widget_type>Image</widget_type>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>1280</width>
+    <no_animation>false</no_animation>
+    <crop_top>0</crop_top>
+    <border_style>0</border_style>
+    <rules />
+    <crop_bottom>0</crop_bottom>
+    <border_width>1</border_width>
+    <image_file>BTSscale.png</image_file>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>330</y>
+    <tooltip></tooltip>
+    <x>0</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-77f1</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_96</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DCV_D0943:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>13</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/DCV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>95</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0">
+    <crop_right>0</crop_right>
+    <crop_left>0</crop_left>
+    <visible>true</visible>
+    <wuid>4321c853:13a897ee951:-7d06</wuid>
+    <auto_size>true</auto_size>
+    <scripts />
+    <height>343</height>
+    <name>DLine</name>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <widget_type>Image</widget_type>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>510</width>
+    <no_animation>false</no_animation>
+    <crop_top>0</crop_top>
+    <border_style>0</border_style>
+    <rules />
+    <crop_bottom>0</crop_bottom>
+    <border_width>1</border_width>
+    <image_file>DLine.png</image_file>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>6</y>
+    <tooltip></tooltip>
+    <x>768</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4321c853:13a897ee951:-7fe6</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>46</height>
+    <data_type>0</data_type>
+    <name>BTS11 FC 1030</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>18</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>702</y>
+    <on_image>PNGs/FC.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>564</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4321c853:13a897ee951:-7fd8</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>46</height>
+    <data_type>0</data_type>
+    <name>BTS02 FC 0966</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>18</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>462</y>
+    <on_image>PNGs/FC.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>510</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4321c853:13a897ee951:-7fdf</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>46</height>
+    <data_type>0</data_type>
+    <name>BTS01 FC 0977</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>18</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules>
+      <rule name="Rule" prop_id="on_image" out_exp="false">
+        <pv trig="true">loc://foo</pv>
+      </rule>
+    </rules>
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>348</y>
+    <on_image>PNGs/FC.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>456</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4eac9d51:13a8eb38be4:-793e</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>46</height>
+    <data_type>0</data_type>
+    <name>Image Boolean Button</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:FC_D0977:LMIN_RSTS</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>31</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>348</y>
+    <on_image>PNGs/FC.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>464</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4eac9d51:13a8eb38be4:-7916</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Image Boolean Button_1</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:FC_D0952:LMIN_RSTS</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>30</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>463</y>
+    <on_image>PNGs/FC.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>246</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4eac9d51:13a8eb38be4:-78f6</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>52</height>
+    <data_type>0</data_type>
+    <name>Image Boolean Button_3</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:FC_D1000:LMIN_RSTS</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>29</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>703</y>
+    <on_image>PNGs/FC.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>56</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4eac9d51:13a8eb38be4:-7906</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>46</height>
+    <data_type>0</data_type>
+    <name>Image Boolean Button_2</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:FC_D0966:LMIN_RSTS</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>31</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>462</y>
+    <on_image>PNGs/FC.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>503</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4eac9d51:13a8eb38be4:-78e6</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>52</height>
+    <data_type>0</data_type>
+    <name>Image Boolean Button_4</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:FC_D1030:LMIN_RSTS</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>31</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>703</y>
+    <on_image>PNGs/FC.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>586</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4eac9d51:13a8eb38be4:-78cc</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>52</height>
+    <data_type>0</data_type>
+    <name>Image Boolean Button_5</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:FC_D1068:IN_RCMD</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>29</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>703</y>
+    <on_image>PNGs/FC.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>1236</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4eac9d51:13a8eb38be4:-6e93</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>46</height>
+    <data_type>0</data_type>
+    <name>Image Boolean Button_6</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:BGV_D0955:LMCL_RSTS</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>18</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>348</y>
+    <on_image>PNGs/GV.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>54</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4eac9d51:13a8eb38be4:-6e7b</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Image Boolean Button_7</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:BGV_D0984:LMCL_RSTS</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>29</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>348</y>
+    <on_image>PNGs/GV.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>545</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4eac9d51:13a8eb38be4:-6e6b</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Image Boolean Button_8</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:BGV_D0945:LMCL_RSTS</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>21</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>463</y>
+    <on_image>PNGs/GV.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>144</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4eac9d51:13a8eb38be4:-6e5b</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Image Boolean Button_9</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:BGV_D0986:LMCL_RSTS</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>21</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>463</y>
+    <on_image>PNGs/GV.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>830</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolButton" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>4eac9d51:13a8eb38be4:-6e4b</wuid>
+    <password></password>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>52</height>
+    <data_type>0</data_type>
+    <name>Image Boolean Button_10</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:BGV_D1032:LMCL_RSTS</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <released_action_index>0</released_action_index>
+    <widget_type>Image Boolean Button</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>24</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <confirm_message>Are your sure you want to do this?</confirm_message>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <toggle_button>true</toggle_button>
+    <show_confirm_dialog>0</show_confirm_dialog>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>702</y>
+    <on_image>PNGs/GV.png</on_image>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>617</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0">
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <visible>true</visible>
+    <wuid>57de8c21:13a932f8a93:-3b96</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <zoom_to_fit>true</zoom_to_fit>
+    <height>301</height>
+    <name>Linking Container</name>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <opi_file>BSS_Container.opi</opi_file>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <group_name></group_name>
+    <enabled>true</enabled>
+    <widget_type>Linking Container</widget_type>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>733</width>
+    <border_style>3</border_style>
+    <rules />
+    <border_width>1</border_width>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>18</y>
+    <actions hook="false" hook_all="false" />
+    <x>24</x>
+    <tooltip></tooltip>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-782d</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_33</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:QE_D0957:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>13</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>74</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-77b5</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_34</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:QE_D0958:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>13</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>106</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7779</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_95</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DCH_D0943:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>13</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/DCH.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>84</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7701</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_40</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:QE_D0968:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>13</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>306</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-76c5</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_41</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:QE_D0969:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>13</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>318</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7689</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_46</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:DCH_D0977:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>13</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/DCH.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>462</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-764d</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_47</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:DCV_D0977:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>14</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/DCV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>475</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7611</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_48</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:QE_D0981:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>13</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>512</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-75d5</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_49</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:QE_D0982:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>13</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>551</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7599</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_50</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:DCH_D0982:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>13</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/DCH.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>525</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-755d</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_51</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:DCV_D0982:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>13</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/DCV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>538</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7521</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_74</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:QE_D0942:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>81</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-74e5</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_75</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:QE_D0943:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>106</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-74a9</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_107</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:QE_D0960:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>414</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-746d</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_108</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:QE_D0961:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>464</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7431</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_110</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DCV_D0961:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/DCV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>432</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-73f5</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_109</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DCH_D0961:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/DCH.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>448</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-73b9</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_113</name>
+    <forecolor_alarm_sensitive>true</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DCV_D0966:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/DCV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>504</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-737d</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_112</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DCH_D0966:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/DCH.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>520</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7341</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_98</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:QE_D0970:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>585</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7305</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_99</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:QE_D0971:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>606</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-72c9</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_100</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:QE_D0983:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>766</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-728d</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_103</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DCV_D0984:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/DCV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>782</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7251</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_102</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DCH_D0984:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/DCH.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>798</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7215</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_101</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:QE_D0984:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>814</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-719d</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>42</height>
+    <data_type>0</data_type>
+    <name>Ellipse_1</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS10:QE_D0993:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>14</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>585</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>96</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-715f</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>42</height>
+    <data_type>0</data_type>
+    <name>Ellipse_9</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS10:DCV_D0994:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>14</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>585</y>
+    <on_image>PNGs/DCV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>110</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-715e</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>42</height>
+    <data_type>0</data_type>
+    <name>Ellipse_3</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS10:DCH_D0994:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>14</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>585</y>
+    <on_image>PNGs/DCH.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>124</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-715d</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>42</height>
+    <data_type>0</data_type>
+    <name>Ellipse_2</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS10:QE_D0994:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>14</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>585</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>138</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-70e4</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>42</height>
+    <data_type>0</data_type>
+    <name>Ellipse_19</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:QE_D1004:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>14</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>585</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>270</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-70e3</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>42</height>
+    <data_type>0</data_type>
+    <name>Ellipse_18</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:QE_D1003:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>14</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>585</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>246</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-70e2</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>42</height>
+    <data_type>0</data_type>
+    <name>Ellipse_22</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:DCH_D1000:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>14</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>585</y>
+    <on_image>PNGs/DCH.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>229</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-70e1</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>42</height>
+    <data_type>0</data_type>
+    <name>Ellipse_23</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:DCV_D1000:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>14</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>585</y>
+    <on_image>PNGs/DCV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>215</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-70a5</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>52</height>
+    <data_type>0</data_type>
+    <name>Ellipse_31</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:DH_D1015:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>25</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>703</y>
+    <on_image>PNGs/DH.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>306</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7068</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>52</height>
+    <data_type>0</data_type>
+    <name>Ellipse_11</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:QE_D1024:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>703</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>432</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7067</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>52</height>
+    <data_type>0</data_type>
+    <name>Ellipse_10</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:QE_D1023:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>703</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>414</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-702a</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>52</height>
+    <data_type>0</data_type>
+    <name>Ellipse_12</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:DCH_D1030:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>703</y>
+    <on_image>PNGs/DCH.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>554</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-7029</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>52</height>
+    <data_type>0</data_type>
+    <name>Ellipse_13</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS11:DCV_D1030:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>16</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>703</y>
+    <on_image>PNGs/DCV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>570</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-a33580b:13abd42a55d:-7ef3</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>44</height>
+    <data_type>0</data_type>
+    <name>Ellipse_39</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS01:DE_D0963:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>25</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>348</y>
+    <on_image>PNGs/DV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>198</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-a33580b:13abd42a55d:-7ef2</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>42</height>
+    <data_type>0</data_type>
+    <name>Ellipse_32</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS10:DE_D0988:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>25</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>585</y>
+    <on_image>PNGs/DV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>47</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-a33580b:13abd42a55d:-7ef1</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_97</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DE_D0950:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>25</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/DV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>234</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-a33580b:13abd42a55d:-7ef0</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_104</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DE_D0952:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>25</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/DV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>270</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-a33580b:13abd42a55d:-7eef</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_105</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DE_D0954:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>25</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/DV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>300</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-a33580b:13abd42a55d:-7eee</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_111</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DE_D0977:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>25</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/DV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>720</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-a33580b:13abd42a55d:-7eed</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>51</height>
+    <data_type>0</data_type>
+    <name>Ellipse_106</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS02:DE_D0979:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>25</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>463</y>
+    <on_image>PNGs/DV.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>744</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ImageBoolIndicator" version="1.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-6c307f36:13a9eda9ef0:-71d9</wuid>
+    <auto_size>true</auto_size>
+    <boolean_label_position>0</boolean_label_position>
+    <scripts />
+    <height>42</height>
+    <data_type>0</data_type>
+    <name>Ellipse</name>
+    <forecolor_alarm_sensitive>true</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <pv_name>BSS_BTS10:QE_D0992:FLAGRATIO</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>Image Boolean Indicator</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Segoe UI" height="8" style="0">Default</opifont.name>
+    </font>
+    <width>14</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <bit>-1</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <off_image></off_image>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>585</y>
+    <on_image>PNGs/Q.png</on_image>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>75</x>
+  </widget>
+</display>

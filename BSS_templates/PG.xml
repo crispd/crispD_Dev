@@ -1,0 +1,34 @@
+<macros>
+	<Group>
+		<DEVICE>PG</DEVICE>
+		<ID>BSS_BTS01:PG_D0978</ID>
+	</Group>	
+	<Group>
+		<DEVICE>PG</DEVICE>
+		<ID>BSS_BTS02:PG_D0966</ID>
+	</Group>
+	<Group>
+		<DEVICE>PG</DEVICE>
+		<ID>BSS_BTS02:PG_D0967</ID>
+	</Group>
+	<Group>
+		<DEVICE>PG</DEVICE>
+		<ID>BSS_BTS11:PG_D1031</ID>
+	</Group>
+	<Group>
+		<DEVICE>PG</DEVICE>
+		<ID>BSS_BTS12:PG_D1093</ID>
+	</Group>
+	<Group>
+		<DEVICE>PG</DEVICE>
+		<ID>BSS_BTS12:PG_D1094</ID>
+	</Group>
+	<Group>
+		<DEVICE>PG</DEVICE>
+		<ID>BSS_BTS12:PG_D1117</ID>
+	</Group>
+	<Group>
+		<DEVICE>PG</DEVICE>
+		<ID>BSS_BTS12:PG_D1118</ID>
+	</Group>	
+</macros>

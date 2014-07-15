@@ -1,0 +1,22 @@
+<macros>
+	<Group>
+		<DEVICE>CAM</DEVICE>
+		<ID>BSS_BTS01:CAM_D0977</ID>
+	</Group>	
+	<Group>
+		<DEVICE>CAM</DEVICE>
+		<ID>BSS_BTS11:CAM_D1000</ID>
+	</Group>
+	<Group>
+		<DEVICE>CAM</DEVICE>
+		<ID>BSS_BTS11:CAM_D1001</ID>
+	</Group>
+	<Group>
+		<DEVICE>CAM</DEVICE>
+		<ID>BSS_BTS11:CAM_D1030</ID>
+	</Group>
+	<Group>
+		<DEVICE>CAM</DEVICE>
+		<ID>BSS_BTS12:CAM_D1117</ID>
+	</Group>
+</macros>

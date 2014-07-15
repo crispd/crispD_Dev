@@ -1,0 +1,22 @@
+<macros>
+	<Group>
+		<DEVICE>TGV</DEVICE>
+		<ID>BSS_BTS01:TGV_D0977</ID>
+	</Group>	
+	<Group>
+		<DEVICE>TGV</DEVICE>
+		<ID>BSS_BTS02:TGV_D0966</ID>
+	</Group>
+	<Group>
+		<DEVICE>TGV</DEVICE>
+		<ID>BSS_BTS11:TGV_D1000</ID>
+	</Group>
+	<Group>
+		<DEVICE>TGV</DEVICE>
+		<ID>BSS_BTS11:TGV_D1030</ID>
+	</Group>
+	<Group>
+		<DEVICE>TGV</DEVICE>
+		<ID>BSS_BTS12:TGV_D1117</ID>
+	</Group>	
+</macros>
